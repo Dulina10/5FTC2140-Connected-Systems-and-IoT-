@@ -151,7 +151,6 @@ const firebaseConfig = {
   }
 
   function writeState(b) {
-    // If you want to store "ON"/"OFF" instead of boolean, use:
     // return pumpRef.set(b ? "ON" : "OFF");
     return pumpRef.set(!!b);
   }
@@ -195,11 +194,7 @@ const firebaseConfig = {
 
 
 
-/* ===================== Charts (CW2) =====================
-   - Uses history/<sensor>/<timestamp_ms> when available
-   - Fallback to live rolling buffer when history is not stored
-   - Adds min/avg/max chips and CSV export
-========================================================== */
+
 
 // Rolling live buffer (fallback)
 const LIVE_MAX_POINTS = 120; // ~ last 120 updates
@@ -437,7 +432,6 @@ setTimeout(refreshCharts, 1200);
 
 
 
-/* ===== CW2 Add-ons (minimal) : Node Status + Alerts ===== */
 
 // --- Node status (reliability evidence) ---
 function fmtSince(ms){
