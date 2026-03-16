@@ -1,5 +1,5 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBrEoQa5_79Hye87GJHGg0VWchjdsTBzjw",
+  apiKey: "AI###################################",
   authDomain: "lora-c5c5b.firebaseapp.com",
   databaseURL: "https://lora-c5c5b-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "lora-c5c5b",
