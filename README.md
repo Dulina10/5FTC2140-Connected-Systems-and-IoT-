@@ -250,20 +250,44 @@ Possible future communication extensions:
 
 ---
 
-# 👨‍💻 Contribution
+## 👥 Team Contributions
 
-Main contribution areas:
+This project was completed as a group coursework for the **5FTC2140 – Connected Systems and IoT module**.  
+Each member contributed to different parts of the system design, implementation, and testing.
 
-• Gateway system development  
-• Dashboard implementation  
-• Firebase integration  
-• System testing and debugging  
+### Dulina Nadith (23115093)
+Main responsibilities:
+- Gateway system development using **ESP32**
+- Integration of **LoRa communication between Node 1, Node 2, and the Gateway**
+- **Wi-Fi connectivity and Firebase Realtime Database integration**
+- Development of the **Web Dashboard using HTML, CSS, and JavaScript**
+- Implementation of **real-time data synchronization between the Gateway and dashboard**
+- Implementation of **manual pump control via the dashboard through Firebase**
+- **System integration, debugging communication issues, and final testing**
 
----
+### Praveen Fernando (23114549)
+Main responsibilities:
+- Development of **Node 2 – Soil Monitoring and Irrigation Control using ESP32-C3**
+- Integration of **soil moisture sensor, flow sensor, relay module, and DC pump**
+- Implementation of **automatic irrigation control logic**
+- Hardware assembly, soldering, and debugging
+- Assistance with **LoRa packet decoding and OLED display integration**
+- Support during **dashboard and communication testing**
 
-# 🔗 GitHub Repository
+### Thevin Kenula (23115443)
+Main responsibilities:
+- Development of **Node 1 – Environmental Monitoring using Arduino Nano**
+- Integration of **DHT11 temperature and humidity sensor**
+- Integration of **LDR light sensor**
+- Implementation of **LoRa transmission to the Gateway**
+- Hardware debugging and sensor testing
 
-https://github.com/Dulina10/5FTC2140-Connected-Systems-and-IoT
+### Team Collaboration
+All team members contributed to:
+- Hardware assembly
+- Final system integration
+- System testing and validation
+- Performance evaluation  
 
 ---
 
