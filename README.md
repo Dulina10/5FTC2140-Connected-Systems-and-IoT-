@@ -54,16 +54,22 @@ This repository contains all files related to the CW2 implementation.
 
 # 🏗 System Architecture
 
-Node 1  ──LoRa──►  
-                 │  
-Node 2  ──LoRa──►  Gateway (ESP32)  
-                         │  
-                         │ Wi‑Fi  
-                         ▼  
-                   Firebase Cloud  
-                         │  
-                         ▼  
-                   Web Dashboard  
+Node 1  ──LoRa
+│      
+▼ 
+Node 2  ──LoRa 
+│ 
+▼ 
+Gateway (ESP32)  
+│                          
+▼                       
+Wi‑Fi                         
+│                   
+▼                           
+Firebase Cloud                        
+│                   
+▼
+Web Dashboard 
 
 ---
 
